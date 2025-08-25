@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Blog</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: #3f9bb7;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .dd {
+            color: aqua;
+            /* text-decoration: underline; */
+            font-family: cursive;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #0d1f3a;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            max-height: 1000px;
+            margin: auto;
+        }
+
+        section h1,
+        section h2 {
+            text-align: center;
+            color: #2f98b6;
+            margin-bottom: 30px;
+        }
+
+        /* About Section */
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .about-text p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .about-art {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .about-art img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .about-art img:hover {
+            transform: scale(1.05);
+        }
+
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(55, 49, 49, 0.501)), url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NjM5MTc4MzkzOTg3MDYy/fascinating-facts-about-ten-famous-paintings.webp) no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            height: 430px;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            background: #2f98b6;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 70px;
+        }
+
+        .hero button:hover {
+            background: #07b7ca;
+        }
+
+        /* Gallery Section */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-height: max-content;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Blog Section */
+        .blog-entries {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .blog-entry {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .blog-entry img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .blog-entry h3 {
+            margin: 20px 0;
+            padding: 0 10px;
+            font-size: 1.2em;
+        }
+
+        .blog-entry p {
+            padding: 0 10px 10px;
+            font-size: 0.9em;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            margin: 20px;
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background: #2f98b6;
+            color: white;
+            border: none;
+        }
+
+        .contact-form button:hover {
+            background: #12aec6;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">DawnDream</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to <em class="dd"><b>DawnDream</b></em> </h1>
+        <p>Discover creativity, learn new techniques, and find inspiration.
+            <br><em>Brushstrokes and Beyond.</em>
+        </p>
+        <button onclick="alert('Start your journey with us!')">Explore Now</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I’m a passionate artist who loves exploring various forms of art, from traditional painting to
+                    modern digital designs. My journey started with pencil sketches and evolved into vibrant creations
+                    that blend imagination with emotion.
+                </p>
+                <p>
+                    My mission is to inspire others by sharing my work, techniques, and stories that shaped my artistic
+                    path. Whether it’s a brushstroke on canvas or a pixel on a screen, every creation tells a story.
+                </p>
+            </div>
+            <div class="about-art">
+                <img src="https://i.pinimg.com/736x/16/b1/58/16b15834e1eb2769f5592f77fd959d20.jpg" alt="Abstract Art">
+                <img src="https://i.pinimg.com/236x/5d/5c/25/5d5c2556fcec282d7a82722b8dae5385.jpg"
+                    alt="Watercolor Painting">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/236x/2d/77/5e/2d775ed46917048a5e0c54df45fec29e.jpg" alt="Artwork 1">
+            <img src="https://i.pinimg.com/474x/43/38/f1/4338f18329abe72bb56d6fb626c08b64.jpg" alt="Artwork 2">
+            <img src="https://i.pinimg.com/474x/e9/51/ba/e951ba3af02b8172cc6bf12c9437c30b.jpg" alt="Artwork 3">
+            <img src="https://i.pinimg.com/236x/c1/44/1b/c1441b48ed29853e57c145861d46d393.jpg" alt="Artwork 4">
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-entries">
+            <div class="blog-entry">
+                <img src="https://i.pinimg.com/236x/ff/48/ea/ff48eaa548e485688478828c6cf9796d.jpg" alt="Blog 1">
+                <h3>Art Inspiration</h3>
+                <p>Explore how I find unique ideas for my artwork.</p>
+            </div>
+            <div class="blog-entry">
+                <img src="https://i.pinimg.com/236x/f8/dc/4e/f8dc4ed29c99aec3312bbeb4a4a7ed00.jpg" alt="Blog 2">
+                <h3>Digital Painting Tips</h3>
+                <p>Learn techniques to improve your digital art skills.</p>
+            </div>
+            <div class="blog-entry">
+                <img src="https://i.pinimg.com/236x/44/63/68/44636877893a6fd3ea97281371249643.jpg" alt="Blog 2">
+                <h3>The Soul's Symphony in Sound</h3>
+                <p>Music is the architecture of emotion, where each note is a brick, each melody a wall, and together
+                    they build a sanctuary for the soul.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DawnDream. All rights reserved.</p>
+        <p>DIKSHITA (23001041017)</p>
+    </footer>
+
+    <script>
+        function validateForm() {
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !email || !message) {
+                alert('Please fill in all fields.');
+                return false;
+            }
+
+            alert('Message sent successfully!');
+            return true;
+        }
+    </script>
+</body>
+
+</html>
