@@ -1,0 +1,234 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+header {
+  background: #3f9bb7;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.dd {
+  color: aqua;
+  /* text-decoration: underline; */
+  font-family: cursive;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #0d1f3a;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  max-height: 1000px;
+  margin: auto;
+}
+
+section h1,
+section h2 {
+  text-align: center;
+  color: #2f98b6;
+  margin-bottom: 30px;
+}
+
+/* About Section */
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-art {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about-art img {
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.about-art img:hover {
+  transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(55, 49, 49, 0.501)),
+    url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NjM5MTc4MzkzOTg3MDYy/fascinating-facts-about-ten-famous-paintings.webp)
+      no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  height: 430px;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background: #2f98b6;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 70px;
+}
+
+.hero button:hover {
+  background: #07b7ca;
+}
+
+/* Gallery Section */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  max-height: max-content;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Blog Section */
+.blog-entries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.blog-entry {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+}
+
+.blog-entry img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.blog-entry h3 {
+  margin: 20px 0;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+
+.blog-entry p {
+  padding: 0 10px 10px;
+  font-size: 0.9em;
+}
+
+/* Contact Form */
+.contact-form {
+  margin: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #2f98b6;
+  color: white;
+  border: none;
+}
+
+.contact-form button:hover {
+  background: #12aec6;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
