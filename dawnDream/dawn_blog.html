@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">DawnDream</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to <em class="dd"><b>DawnDream</b></em> </h1>
+        <p>Discover creativity, learn new techniques, and find inspiration.
+            <br><em>Brushstrokes and Beyond.</em>
+        </p>
+        <button onclick="alert('Start your journey with us!')">Explore Now</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I’m a passionate artist who loves exploring various forms of art, from traditional painting to
+                    modern digital designs. My journey started with pencil sketches and evolved into vibrant creations
+                    that blend imagination with emotion.
+                </p>
+                <p>
+                    My mission is to inspire others by sharing my work, techniques, and stories that shaped my artistic
+                    path. Whether it’s a brushstroke on canvas or a pixel on a screen, every creation tells a story.
+                </p>
+            </div>
+            <div class="about-art">
+                <img src="https://i.pinimg.com/736x/16/b1/58/16b15834e1eb2769f5592f77fd959d20.jpg" alt="Abstract Art">
+                <img src="https://i.pinimg.com/236x/5d/5c/25/5d5c2556fcec282d7a82722b8dae5385.jpg"
+                    alt="Watercolor Painting">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/236x/2d/77/5e/2d775ed46917048a5e0c54df45fec29e.jpg" alt="Artwork 1">
+            <img src="https://i.pinimg.com/474x/43/38/f1/4338f18329abe72bb56d6fb626c08b64.jpg" alt="Artwork 2">
+            <img src="https://i.pinimg.com/474x/e9/51/ba/e951ba3af02b8172cc6bf12c9437c30b.jpg" alt="Artwork 3">
+            <img src="https://i.pinimg.com/236x/c1/44/1b/c1441b48ed29853e57c145861d46d393.jpg" alt="Artwork 4">
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-entries">
+            <div class="blog-entry">
+                <img src="https://i.pinimg.com/236x/ff/48/ea/ff48eaa548e485688478828c6cf9796d.jpg" alt="Blog 1">
+                <h3>Art Inspiration</h3>
+                <p>Explore how I find unique ideas for my artwork.</p>
+            </div>
+            <div class="blog-entry">
+                <img src="https://i.pinimg.com/236x/f8/dc/4e/f8dc4ed29c99aec3312bbeb4a4a7ed00.jpg" alt="Blog 2">
+                <h3>Digital Painting Tips</h3>
+                <p>Learn techniques to improve your digital art skills.</p>
+            </div>
+            <div class="blog-entry">
+                <img src="https://i.pinimg.com/236x/44/63/68/44636877893a6fd3ea97281371249643.jpg" alt="Blog 2">
+                <h3>The Soul's Symphony in Sound</h3>
+                <p>Music is the architecture of emotion, where each note is a brick, each melody a wall, and together
+                    they build a sanctuary for the soul.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DawnDream🩵. All rights reserved.</p>
+        <p>DIKSHITA (2300104****)</p>
+    </footer>
+
+    <script>
+        function validateForm() {
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !email || !message) {
+                alert('Please fill in all fields.');
+                return false;
+            }
+
+            alert('Message sent successfully!');
+            return true;
+        }
+    </script>
+</body>
+
+</html>
