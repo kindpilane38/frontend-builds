@@ -1000,7 +1000,1048 @@ footer p {
   margin-left: 0.4rem;
 }
 
-/*~~~~ media query(mobile) ~~~~~~~~~~~~~~~~~~~~~~~*/
+/* media (mini-pc) ~~~~~~~~~~~~~~~~~~*/
+@media (max-width: 1199.5px) {
+  section ul li {
+    font-size: 10px;
+    padding: 0;
+  }
+  section p {
+    font-size: 12px;
+  }
+  section h2 {
+    font-size: 20px;
+  }
+  section h3 {
+    font-size: 16px;
+  }
+
+  /* header========= */
+  header p,
+  .hero p {
+    font-size: 13px;
+  }
+  .top-header img {
+    width: 17px;
+    height: 16px;
+  }
+  .h-social img {
+    width: 24px;
+    height: 18px;
+  }
+  .ball {
+    max-width: 12px;
+    max-height: 12px;
+  }
+  nav {
+    width: 95%;
+    margin: 6px auto;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+  }
+  .h-logo {
+    width: 55px;
+    height: 55px;
+  }
+  nav ul {
+    gap: 18px;
+    padding-left: 2px;
+    margin: -4px 0 0 0;
+  }
+  nav a,
+  .auth-btns button {
+    font-size: 13px;
+  }
+  .auth-btns button {
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin: 4px 0 0 0;
+  }
+  .info-btn,
+  .hero-btn {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  .info-btn img,
+  .hero-btn img {
+    width: 10px;
+    height: 8px;
+  }
+
+  /* hero section=== */
+  .hero h1 {
+    font-size: 28px;
+  }
+  .recom img {
+    width: 6%;
+  }
+
+  /* about-section ==*/
+  .about-pts img {
+    width: 18%;
+  }
+
+  /* services =====*/
+  .service-txt h3 {
+    margin-top: 70%;
+  }
+  .slider img {
+    width: 10%;
+    margin-bottom: 20px;
+  }
+
+  /* awards and certification */
+  .crtf img {
+    width: 70px;
+    height: 66px;
+  }
+  .crtf {
+    padding: 20px;
+  }
+
+  /* features-section */
+  .feature-head ul {
+    padding-bottom: 7px;
+  }
+  .feature-head h2 {
+    line-height: 20px;
+  }
+  .feature-img {
+    margin: 20px 0;
+  }
+  .feature-pts img {
+    width: 25%;
+  }
+
+  /* our-goals ======*/
+  .collage {
+    width: 78%;
+  }
+  .g-text ul {
+    padding: 10px 16px;
+  }
+  .goal-cards {
+    gap: 20px;
+  }
+  .goal {
+    padding: 15px;
+  }
+  .sale-card h3 {
+    margin-top: 4%;
+  }
+  .goal img {
+    width: 20%;
+    margin: 10px 0 20px 0;
+  }
+
+  /* estimate-section ======*/
+  .est-text ul {
+    padding: 10px 16px;
+  }
+  .est-pts img {
+    width: 2.5%;
+  }
+  .est-agent {
+    width: 23%;
+    top: 7.3%;
+  }
+  .est-calc {
+    gap: 9%;
+  }
+  .est-calc img {
+    width: 38px;
+  }
+
+  /* plan-section ======*/
+  .price-head ul {
+    padding: 10px;
+  }
+  .price-head .nav {
+    margin: 20px auto;
+  }
+  .price-list {
+    margin: 30px 0;
+  }
+  .plan-pt img {
+    width: 5%;
+  }
+  .b1 {
+    margin-top: 51.1%;
+  }
+
+  /* contact-section ========*/
+  .cont-txt ul {
+    padding: 10px 14px;
+  }
+  .call {
+    font-size: 13px;
+  }
+
+  /* testimonials section ====*/
+  .tes-text ul {
+    padding: 10px 14px;
+  }
+  .tes-card {
+    padding: 8px;
+  }
+  .tes-card img {
+    width: 14%;
+  }
+  .user-info {
+    gap: 2px;
+  }
+  .tes-card a img {
+    width: 48%;
+  }
+  .user-info h3 {
+    font-size: 14px;
+  }
+  #tes-bottom {
+    margin: 35px auto;
+  }
+
+  /* faq section =======*/
+  #faq {
+    gap: 5px;
+  }
+  .faq-head img {
+    margin: 10px -10px;
+    border-radius: 22px;
+  }
+  .ques h3,
+  .q1 h3 {
+    font-size: 15px;
+  }
+  .faq-text {
+    margin: 8px;
+  }
+  .faq-text p {
+    margin: 0;
+  }
+  .q1 {
+    padding: 10px 0;
+  }
+  .ques {
+    padding: 10px 0;
+    background-size: 5%;
+  }
+
+  /* blog ========*/
+  .row h3 {
+    font-size: 15px;
+  }
+
+  /* footer ======*/
+  footer p,
+  footer a {
+    font-size: 13px;
+  }
+  .sub {
+    padding: 8px 10px;
+  }
+  .bottom img {
+    width: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  section ul li {
+    font-size: 9px;
+    padding: 0;
+  }
+  section p {
+    font-size: 10px;
+  }
+  section h2 {
+    font-size: 14px;
+  }
+  section h3 {
+    font-size: 11px;
+  }
+
+  /* header========= */
+  header p,
+  .hero p {
+    font-size: 10px;
+  }
+  .top-header img {
+    width: 13px;
+    height: 14px;
+  }
+  .h-social img {
+    width: 18px;
+    height: 14px;
+  }
+  .ball {
+    max-width: 9px;
+    max-height: 10px;
+  }
+  nav {
+    width: 95%;
+    margin: 4px auto;
+    justify-items: center;
+    gap: 18px;
+    padding: 0;
+  }
+  .h-logo {
+    width: 45px;
+    height: 45px;
+  }
+  nav ul {
+    gap: 16px;
+    padding-left: 2px;
+  }
+  nav a,
+  .auth-btns button {
+    font-size: 10px;
+  }
+  .auth-btns button {
+    padding: 6px 10px;
+    border-radius: 9px;
+  }
+  .info-btn,
+  .hero-btn {
+    font-size: 8px;
+    padding: 8px 9px;
+    border-radius: 8px;
+  }
+  .info-btn img,
+  .hero-btn img {
+    width: 10px;
+    height: 8px;
+  }
+
+  /* hero section=== */
+  .hero h1 {
+    font-size: 20px;
+  }
+  .recom img {
+    width: 8%;
+  }
+
+  /* about-section ==*/
+  #about {
+    gap: 20px;
+  }
+  .warranty-box {
+    gap: 12px;
+  }
+  .warranty-box .war-card {
+    padding: 12px;
+  }
+  .about-img2 {
+    margin-top: 15px;
+  }
+  .about-video {
+    width: 45%;
+  }
+  .about-us ul {
+    padding: 6px 13px;
+  }
+  .about-pts img {
+    width: 16%;
+    margin: 0;
+  }
+  .about-pts .contain {
+    margin: 0;
+  }
+  .about-pts .contain h3 {
+    padding: 0;
+    margin: 12px 0;
+  }
+
+  /* services =====*/
+  .service-txt h3 {
+    margin-top: 70%;
+  }
+  .slider img {
+    width: 10%;
+    margin-bottom: 20px;
+  }
+
+  /* awards and certification */
+  .crtf img {
+    width: 70px;
+    height: 66px;
+  }
+  .crtf {
+    padding: 20px;
+  }
+
+  /* features-section */
+  .feature-head ul {
+    padding: 7px;
+  }
+  .feature-head h2 {
+    line-height: 20px;
+  }
+  .feature-img {
+    margin: 20px 0;
+  }
+  .feature-pts img {
+    width: 25%;
+  }
+  .feature-pts {
+    gap: 10px;
+  }
+
+  /* our-goals ======*/
+  #our-goals {
+    gap: 30px;
+  }
+  .collage {
+    width: 85%;
+  }
+  .g-text ul {
+    padding: 10px 13px;
+  }
+  .goal-cards {
+    gap: 20px;
+  }
+  .goal {
+    padding: 5px 10px;
+    border-radius: 17px;
+  }
+  .sale-card h3 {
+    margin-top: 4%;
+  }
+  .goal img {
+    width: 16%;
+    margin: 10px 0 14px 0;
+  }
+
+  /* estimate-section ======*/
+  .est-text ul {
+    padding: 10px 13px;
+  }
+  .est-pts img {
+    width: 2.5%;
+  }
+  .est-agent {
+    width: 23%;
+    top: 7.3%;
+  }
+  .est-calc {
+    gap: 26px;
+  }
+  .est-calc img {
+    width: 23px;
+  }
+
+  /* plan-section ======*/
+  .price-head ul {
+    padding: 10px;
+  }
+  .price-board a {
+    padding: 7px 3px;
+    font-size: 11px;
+    border-radius: 7px;
+  }
+  .price-head .nav {
+    margin: 10px auto;
+    padding: 6px;
+    border-radius: 9px;
+  }
+  .price-head .nav-pills button {
+    padding: 4px 5px;
+    border-radius: 6px;
+  }
+  .price-board p,
+  .price-board a {
+    padding: 4px;
+  }
+  .price-list {
+    margin: 0;
+  }
+  .price-board {
+    padding: 20px 16px;
+    border-radius: 25px;
+  }
+  .price-board h3 {
+    margin: 2px 2px;
+  }
+  .price-board hr {
+    margin: 0;
+  }
+  .price-board h2 {
+    padding: 2px 5px;
+    border-radius: 6px;
+    margin: 6px 0;
+  }
+  .price-board img {
+    width: 4%;
+  }
+  .year {
+    font-size: 8px;
+  }
+  .b1 {
+    margin-top: 52%;
+  }
+
+  /* contact-section ========*/
+  .cont-txt ul {
+    padding: 10px 13px;
+  }
+  .contact-link {
+    gap: 2%;
+  }
+  .contact-link a {
+    font-size: 10px;
+    padding: 6px 4px;
+    width: 24%;
+    margin-right: 7px;
+    border-radius: 6px;
+  }
+  .contact-link a img {
+    width: 12%;
+    height: 13%;
+  }
+  .phone img {
+    width: 18%;
+    height: 17%;
+  }
+  .call {
+    font-size: 10px;
+    padding: 0;
+  }
+
+  /* testimonials section ====*/
+  #testimonial {
+    padding: 0;
+  }
+  .tes-text ul {
+    padding: 10px 14px;
+  }
+  .tes-card {
+    padding: 0;
+  }
+  .tes-card p {
+    margin: 10px 0;
+  }
+  .tes-card img {
+    width: 10%;
+  }
+  .user-info {
+    gap: 2px;
+  }
+  .tes-card a img {
+    width: 48%;
+  }
+  .user-info h3 {
+    font-size: 11px;
+  }
+  #tes-bottom {
+    margin: 35px auto;
+  }
+
+  /* faq section =======*/
+  #faq {
+    gap: 2px;
+  }
+  .faq-head img {
+    margin: 10px -10px;
+    border-radius: 20px;
+  }
+  .ques h3,
+  .q1 h3 {
+    font-size: 12px;
+  }
+  .faq-text {
+    margin: 8px;
+  }
+  .faq-text p {
+    margin: 0;
+  }
+  .q1 {
+    padding: 10px 0;
+  }
+  .ques {
+    padding: 10px 0;
+    background-size: 4%;
+  }
+
+  /* blog ========*/
+  .row .col-4 {
+    gap: 0;
+  }
+  .row h3 {
+    font-size: 10px;
+  }
+  .row a {
+    font-size: 12px;
+  }
+
+  /* footer ======*/
+  footer p,
+  footer a {
+    font-size: 10px;
+  }
+  footer .footer-contact img {
+    width: 10px;
+  }
+  footer h3 {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .quick-link {
+    padding: 0;
+  }
+  .quick-link p {
+    margin: 0;
+    padding: 1px 0;
+  }
+  .footer-contact p img {
+    width: 12px;
+    height: 12px;
+  }
+  .get-inTouch {
+    margin: 0;
+  }
+  .get-inTouch input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 12px;
+  }
+  .get-inTouch input::placeholder {
+    font-size: 11px;
+  }
+  .sub {
+    padding: 5px 4px;
+    border-radius: 8px;
+  }
+  .bottom img {
+    width: 22px;
+  }
+}
+
+/* media(991px - 769px) -----------*/
+@media (min-width: 769px) and (max-width: 991px) {
+  header {
+    max-width: 95%;
+  }
+  .hero h1 {
+    font-size: 24px;
+  }
+  .info-btn,
+  section a {
+    font-size: 10px;
+    padding: 6px 8px;
+    border-radius: 8px;
+  }
+  .about-pts img {
+    width: 25px;
+  }
+  .about-us .contain {
+    margin: 0;
+  }
+  #about h3 {
+    font-size: 13px;
+  }
+  .support {
+    padding-left: 12px;
+  }
+  #estimate {
+    padding: 20px 30px;
+  }
+  .est-text p {
+    margin: 0;
+  }
+  .est-agent {
+    width: 190px;
+  }
+  .est-calc img {
+    width: 24px;
+  }
+  #pricing {
+    margin: 20px 0;
+  }
+  .price-board {
+    padding: 17px;
+    border-radius: 15px;
+  }
+  .price-board a {
+    padding: 6px 4px;
+    border-radius: 7px;
+  }
+  .b1 {
+    margin-top: 125px;
+  }
+  .contact-link a {
+    width: 32%;
+    padding: 5px 7px;
+    border-radius: 8px;
+  }
+  .phone img {
+    width: 28px;
+  }
+  .phone p,
+  .call {
+    font-size: 10px;
+  }
+
+  .faq-list h3 {
+    margin: 0;
+  }
+  .faq-list h3,
+  .row h3,
+  footer h3 {
+    font-size: 13px;
+  }
+  .row a {
+    font-size: 12px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  .footer-contact img {
+    width: 10px;
+  }
+  .get-inTouch input {
+    height: 25px;
+    border-radius: 5px;
+  }
+  .sub {
+    padding: 5px 6px;
+    border-radius: 7px;
+    font-size: 10px;
+  }
+  input::placeholder {
+    font-size: 10px;
+  }
+  .bottom img {
+    width: 22px;
+  }
+}
+
+/* media (768px - 427px) tablet*/
+@media (min-width: 426px) and (max-width: 768px) {
+  section ul li {
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+  }
+  .hero h1 {
+    font-size: 16px;
+  }
+  section h2 {
+    font-size: 15px;
+  }
+  section h3 {
+    font-size: 11px;
+  }
+  section p,
+  .hero p,
+  section a {
+    font-size: 10px;
+  }
+  header p,
+  header a {
+    font-size: 8px;
+  }
+
+  /* header ============*/
+  header {
+    max-width: 95%;
+  }
+  .h-social img,
+  .address img {
+    width: 11px;
+    height: 10px;
+  }
+  nav {
+    gap: 12px;
+    justify-content: center;
+  }
+  .h-logo {
+    width: 33px;
+    height: 33px;
+  }
+  .auth-btns button {
+    font-size: 7px;
+    padding: 4px 5px;
+    border-radius: 5px;
+  }
+  .info-btn,
+  .hero-btn {
+    font-size: 8px;
+    padding: 4px 5px;
+    border-radius: 5px;
+  }
+  .arrow,
+  .b-arrow {
+    max-width: 7px;
+    max-height: 5px;
+  }
+  /* hero section ==========*/
+  .hero {
+    padding: 10px 0;
+  }
+  .hero-btn {
+    margin: 18px 0;
+  }
+  .recom img {
+    width: 10%;
+  }
+
+  /* about-section ============ */
+  #about {
+    padding: 20px 12px;
+    gap: 15px;
+  }
+
+  .war-card h3,
+  .about-pts h3 {
+    font-size: 10px;
+  }
+  .war-card p {
+    font-size: 9px;
+  }
+  .about-video {
+    width: 40%;
+  }
+  .support {
+    padding-left: 6px;
+  }
+
+  /* service-section ========*/
+  #service {
+    padding: 0;
+    border-radius: 20px;
+  }
+  .ser-cards {
+    gap: 15px;
+  }
+  .service-txt {
+    padding: 25px 8px;
+    border-radius: 18px;
+  }
+  .service-txt h3 {
+    margin-top: 42%;
+  }
+  .service-txt p {
+    margin: 0;
+  }
+  .slider {
+    padding: 16px;
+  }
+
+  /* awards and certification ======*/
+  #awards {
+    margin: 0 auto;
+  }
+  #awards ul {
+    padding: 10px;
+  }
+  .award-head {
+    gap: 10px;
+  }
+  .crtf {
+    padding: 5px;
+  }
+  .crtf img {
+    width: 45px;
+    height: 45px;
+  }
+
+  /* feature-section======= */
+  #features {
+    padding: 10px 8px;
+    margin: 10px 4px;
+    border-radius: 20px;
+  }
+  .feature-pts img {
+    width: 30px;
+  }
+
+  /* our-goals ============*/
+  #our-goals {
+    margin: 10px auto;
+    gap: 15px;
+  }
+  .g-text {
+    width: 88%;
+  }
+  .goal-cards {
+    margin: 0;
+  }
+  .goal {
+    padding: 8px;
+  }
+  .goal p {
+    font-size: 8px;
+  }
+  .g-text .info-btn {
+    margin: 0;
+  }
+
+  /* estimate section ============*/
+  #estimate {
+    padding: 4px 18px;
+    border-radius: 20px;
+    margin: 0 3px;
+  }
+  .est-text {
+    width: 90%;
+    margin: 10px 0;
+  }
+  .est-text p {
+    margin-bottom: 0;
+  }
+  .est-agent {
+    width: 155px;
+    left: 60%;
+  }
+  .est-calc {
+    gap: 20px;
+    padding: 17px 0;
+  }
+  .est-calc img {
+    width: 18px;
+  }
+
+  /* plan-section ============ */
+  #pricing {
+    margin: 10px 0;
+  }
+  .price-board {
+    padding: 15px 8px;
+    border-radius: 15px;
+  }
+  .price-board h2 {
+    margin-bottom: 10px;
+  }
+  .price-board p {
+    font-size: 8px;
+    margin: 0;
+    padding: 3px;
+  }
+  .price-board a {
+    font-size: 9px;
+  }
+  .b1 {
+    margin-top: 75px;
+  }
+  .year {
+    font-size: 8px;
+  }
+
+  /* contact section======== */
+  #contact {
+    padding: 10px 20px;
+    margin: 10px 4px;
+    border-radius: 20px;
+    background-size: contain;
+  }
+  .cont-txt {
+    width: 58%;
+  }
+  .contact-link a,
+  .phone p,
+  .call {
+    font-size: 6px;
+  }
+  .contact-link a {
+    padding: 5px 6px;
+    width: 25%;
+  }
+
+  /* testimonials section ============ */
+  .tes-card {
+    border-radius: 18px;
+  }
+  .tes-card .card-body {
+    padding: 10px 8px;
+  }
+  .user-info {
+    margin: 0;
+  }
+  #tes-bottom {
+    font-size: 8px;
+  }
+
+  /* faq section=========== */
+  #faq {
+    margin: 10px 2px;
+    padding: 20px 11px;
+    border-radius: 20px;
+    gap: 0;
+  }
+  .faq-head h2 {
+    margin: 0;
+  }
+  .faq-head img {
+    margin: 20px 0;
+  }
+  .faq-text {
+    margin: 0;
+  }
+  .faq-list {
+    margin-top: 7px;
+  }
+  .faq-text br {
+    display: none;
+  }
+  .faq-list div {
+    padding: 5px;
+  }
+  .faq-list h3,
+  .faq-text p {
+    font-size: 8px;
+  }
+
+  /* blog========== */
+  #blog {
+    padding: 10px 0;
+  }
+  .row {
+    padding: 0;
+  }
+  .row a {
+    font-size: 8px;
+  }
+  .row a img {
+    width: 6px;
+    height: 8px;
+  }
+
+  /* footer======== */
+  footer {
+    border-radius: 20px;
+    margin: 0 4px;
+  }
+  .f-info {
+    grid-template-columns: 25% 17% 25% 28%;
+    gap: 13px;
+  }
+  .f-info input::placeholder {
+    font-size: 8.5px;
+  }
+  .sub {
+    font-size: 8px;
+    padding: 5px 4px;
+    border-radius: 6px;
+  }
+
+  footer p {
+    font-size: 8px;
+  }
+  footer h3 {
+    font-size: 11px;
+  }
+  .bottom p {
+    margin: 0;
+  }
+  .bottom div {
+    width: 73%;
+    margin-left: 52%;
+  }
+  .bottom img {
+    width: 16px;
+  }
+}
+
+/*~~~~ media query(mobile[320px - 426px]) ~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (max-width: 426px) {
   .container {
     margin: 0 auto;
@@ -1061,6 +2102,7 @@ footer p {
   }
   .h-social img {
     width: 10px;
+    height: 8px;
     gap: 1px;
   }
   .ball {
@@ -1076,8 +2118,8 @@ footer p {
     padding: 0;
   }
   .h-logo {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 25px;
   }
   nav ul {
     gap: 8px;
@@ -1183,12 +2225,14 @@ footer p {
   .about-us .support {
     padding-left: 6px;
   }
-  .info-btn {
-    margin-top: 8%;
+  .about-us .info-btn {
+    margin-top: 5%;
   }
   /* services */
   #service {
     background-size: cover;
+    padding: 0;
+    border-radius: 20px;
   }
   .ser-head ul {
     padding: 12px 0;
@@ -1200,7 +2244,7 @@ footer p {
     gap: 12px;
   }
   .service-txt {
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 20px 10px;
   }
   .service-txt p,
@@ -1221,31 +2265,31 @@ footer p {
   #awards ul {
     padding: 4px 9.2px;
   }
+  .award-head h2 {
+    margin: 0;
+  }
   .award-head {
     margin-bottom: 8px;
-    align-items: center;
   }
   .award-head p {
     width: 80%;
   }
   .crtf {
     gap: 10px;
-    padding: 15px 10px;
+    padding: 8px;
   }
   .crtf img {
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 30px;
   }
 
   /* features====== */
   #features {
     padding: 20px;
-  }
-  .f-ul {
-    margin-bottom: -19px;
+    border-radius: 20px;
   }
   .feature-head h2 {
-    margin: -5px;
+    line-height: 12px;
   }
   .feature-head br {
     display: none;
@@ -1291,14 +2335,14 @@ footer p {
     margin-top: 10px;
   }
   .goal {
-    padding: 6px 8px;
-    border-radius: 12px;
+    padding: 4px 6px;
+    border-radius: 10px;
   }
   .goal h3 {
     margin: 0;
   }
   .goal img {
-    width: 12px;
+    width: 10px;
     margin: 10px 0;
   }
   .g-text .info-btn {
@@ -1306,39 +2350,40 @@ footer p {
     padding: 3.5px;
   }
   .collage {
-    width: 70%;
+    width: 85%;
   }
 
   /* estimate section =====*/
   #estimate {
     padding: 20px 34px;
-    border-radius: 30px;
+    border-radius: 20px;
   }
   .est-text ul {
     padding-left: 9.2px;
   }
   .est-text h2 {
-    margin: 0;
+    margin-bottom: 0;
   }
-  .est-text p {
+  .est-text > p {
     margin: 0;
+    padding: 7px 0;
   }
   .est-pts img {
-    width: 4%;
+    width: 3.5%;
   }
   .est-agent {
     width: 86px;
-    top: 9%;
+    top: 6%;
   }
   .est-pts p {
     padding-left: 10px;
   }
   .est-calc {
     padding-top: 14px;
-    gap: 7%;
+    gap: 7.5%;
   }
   .est-calc img {
-    width: 20%;
+    width: 9px;
     margin-bottom: 15px;
   }
   .est-calc p {
@@ -1411,7 +2456,7 @@ footer p {
   .contact-link a {
     font-size: 4px;
     padding: 3px 2px;
-    width: 24%;
+    width: 25%;
     margin-right: 7px;
     border-radius: 4px;
   }
@@ -1454,7 +2499,7 @@ footer p {
     margin: 4px 0;
   }
   .tes-card img {
-    width: 20%;
+    width: 15%;
   }
   .tes-card hr {
     margin: 8px;
@@ -1465,6 +2510,7 @@ footer p {
     align-items: center;
   }
   .user-info h3 {
+    font-size: 6px;
     margin: 0 8px 0 5px;
   }
   .user-info a {
@@ -1479,7 +2525,7 @@ footer p {
 
   /* faq =============*/
   #faq {
-    gap: 6px;
+    gap: 0;
     border-radius: 20px;
     padding-bottom: 2px;
     /* background-size:contain; */
@@ -1489,22 +2535,37 @@ footer p {
     margin: 0;
   }
   .faq-head img {
-    border-radius: 18px;
+    border-radius: 16px;
+    width: 90%;
     margin: 10px 0;
   }
-  .faq-text {
-    margin: 10px;
+  .faq-text br {
+    display: none;
   }
-  .faq-text > p {
-    margin: 0;
+  .faq-list {
+    margin-top: 12px;
   }
-  .ques,
-  .q1 {
-    padding: 1px;
+  .faq-list > div {
+    padding: 4px 0;
   }
   .ques {
     border-top: 0.5px solid rgba(204, 204, 204, 0.5);
     background-size: 4%;
+  }
+  .ques h3,
+  .q1 h3 {
+    font-size: 5.3px;
+  }
+  .faq-text {
+    margin: 10px 0;
+  }
+  .q1 h3 {
+    margin-bottom: 3px;
+    background-size: 5%;
+  }
+  .ques h3 {
+    margin: 2.5px 0;
+    background-size: 5%;
   }
 
   /* blog section ======*/
@@ -1516,6 +2577,10 @@ footer p {
   }
   .row .col-4 {
     padding: 4px;
+  }
+  .row h3 {
+    font-size: 5.5px;
+    margin: 0;
   }
   .row .card-body > img {
     margin: 9px 0;
@@ -1529,6 +2594,8 @@ footer p {
   #blog .b-arrow {
     width: 3%;
     height: 4%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   /* footer========== */
@@ -1540,7 +2607,7 @@ footer p {
     margin-bottom: 10px;
   }
   .f-info {
-    grid-template-columns: 25% 20% 25% 25%;
+    grid-template-columns: 25% 20% 24% 25%;
     gap: 8px;
   }
   footer div p {
@@ -1569,7 +2636,8 @@ footer p {
     margin: 0;
   }
   .get-inTouch input {
-    padding: 0;
+    padding: 8px 2px;
+    padding-top: 0;
     margin-bottom: 0;
     border-radius: 3px;
     height: 12px;
@@ -1578,9 +2646,9 @@ footer p {
     font-size: 4px;
   }
   .sub {
-    font-size: 5px;
+    font-size: 4px;
     padding: 2px 2px;
-    border-radius: 4px;
+    border-radius: 3px;
   }
   .sub img {
     width: 4px;
@@ -1597,610 +2665,5 @@ footer p {
   }
   .bottom div {
     width: 40%;
-  }
-}
-
-/* media (mini-pc) ~~~~~~~~~~~~~~~~~~*/
-@media (max-width: 1199.5px){
-  section ul li{
-    font-size:10px;
-    padding:0;
-  }
-  section p{
-    font-size:12px;
-  }
-  section h2{
-    font-size:20px;
-  }
-  section h3{
-    font-size:16px;
-  }
-  
-  /* header========= */
-  header p, .hero p{
-    font-size:13px;
-  }
-  .top-header img{
-    width:17px;
-    height:16px
-  }
-  .h-social img{
-    width:24px;
-    height:18px;
-  }
-  .ball{
-    max-width:12px;
-    max-height:12px;
-  }
-  nav {
-    width: 95%;
-    margin: 6px auto;
-    justify-content: center;
-    gap: 20px;
-    padding: 0;
-  }
-  .h-logo {
-    width: 55px;
-    height: 55px;
-  }
-  nav ul {
-    gap: 18px;
-    padding-left: 2px;
-    margin: -4px 0 0 0;
-  }
-  nav a,
-  .auth-btns button {
-    font-size: 13px;
-  }
-  .auth-btns button {
-    padding: 8px 10px;
-    border-radius: 10px;
-    margin:4px 0 0 0;
-  }
-  .info-btn, .hero-btn{
-    font-size:12px;
-    padding:10px 12px;
-  }
-  .info-btn img, .hero-btn img{
-    width:10px;
-    height:8px;
-  }
-  
-  /* hero section=== */
-  .hero h1{
-    font-size:28px;
-  }
-  .recom img{
-    width:6%;
-  }
-  
-  /* about-section ==*/
-  .about-pts img{
-    width:18%;
-  }
-
-  /* services =====*/
-  .service-txt h3{
-    margin-top:70%;
-  }
-  .slider img{
-    width:10%;
-    margin-bottom:20px;
-  }
-
-  /* awards and certification */
-  .crtf img{
-    width:70px;
-    height:66px;
-  }
-  .crtf{
-    padding:20px;
-  }
-
-  /* features-section */
-  .feature-head ul{
-    padding-bottom:7px;
-  }
-  .feature-head h2{
-    line-height:20px;
-  }
-  .feature-img{
-    margin:20px 0;
-  }
-  .feature-pts img{
-    width:25%;
-  }
-  
-  /* our-goals ======*/
-  .collage{
-    width:78%;
-  }
-  .g-text ul{
-    padding:10px 16px;
-  }
-  .goal-cards{
-    gap:20px;
-  }
-  .goal{
-    padding:15px;
-  }
-  .sale-card h3{
-    margin-top:4%;
-  }
-  .goal img{
-    width:20%;
-    margin:10px 0 20px 0;
-  }
-
-  /* estimate-section ======*/
-  .est-text ul{
-    padding:10px 16px;
-  }
-  .est-pts img{
-    width:2.5%;
-  }
-  .est-agent{
-    width:23%;
-    top:7.3%;
-  }
-  .est-calc {
-    gap:9%;
-  }
-  .est-calc img{
-    width:38px;
-  }
-
-  /* plan-section ======*/
-  .price-head ul{
-    padding:10px;
-  }
-  .price-head .nav{
-    margin:20px auto;
-  }
-  .price-list{
-    margin:30px 0;
-  }
-  .plan-pt img{
-    width:5%
-  }
-  .b1{
-    margin-top:51.1%;
-  }
-
-  /* contact-section ========*/
-  .cont-txt ul{
-    padding:10px 14px;
-  }
-  .call {
-    font-size:13px;
-  }
-
-  /* testimonials section ====*/
-  .tes-text ul{
-    padding:10px 14px;
-  }
-  .tes-card {
-    padding:8px;
-  }
-  .tes-card img{
-    width:14%;
-  }
-  .user-info {
-    gap:2px
-  }
-  .tes-card a img{
-    width:48%;
-  }
-  .user-info h3{
-    font-size:14px;
-  }
-  #tes-bottom{
-    margin:35px auto;
-  }
-
-  /* faq section =======*/
-  #faq{
-   gap:5px; 
-  }
-  .faq-head img{
-    margin:10px -10px;
-    border-radius:22px;
-  }
-  .ques h3, .q1 h3{
-    font-size:15px;
-  }
-  .faq-text{
-    margin:8px;
-  }
-  .faq-text p{
-    margin:0;
-  }
-  .q1{
-    padding:10px;
-  }
-  .ques{
-    padding:10px 0;
-    background-size:5%;
-  }
-  
-  /* blog ========*/
-  .row h3{
-    font-size:15px;
-  }
-
-  /* footer ======*/
-  footer p, footer a{
-    font-size:13px;
-  }
-  .sub{
-    padding:8px 10px;
-  }
-  .bottom img{
-    width:32px;
-  }
-}
-
-@media (max-width:766px){
-  section ul li{
-    font-size:9px;
-    padding:0;
-  }
-  section p{
-    font-size:10px;
-  }
-  section h2{
-    font-size:14px;
-  }
-  section h3{
-    font-size:11px;
-  }
-  
-  /* header========= */
-  header p, .hero p{
-    font-size:10px;
-  }
-  .top-header img{
-    width:13px;
-    height:14px
-  }
-  .h-social img{
-    width:18px;
-    height:14px;
-  }
-  .ball{
-    max-width:9px;
-    max-height:10px;
-  }
-  nav {
-    width: 95%;
-    margin: 4px auto;
-    justify-items: center;
-    gap: 18px;
-    padding: 0;
-  }
-  .h-logo {
-    width: 45px;
-    height: 45px;
-  }
-  nav ul {
-    gap: 16px;
-    padding-left: 2px;
-  }
-  nav a,
-  .auth-btns button {
-    font-size: 10px;
-  }
-  .auth-btns button {
-    padding: 6px 10px;
-    border-radius: 9px;
-  }
-  .info-btn, .hero-btn{
-    font-size:8px;
-    padding:8px 9px;
-    border-radius:8px;
-  }
-  .info-btn img, .hero-btn img{
-    width:10px;
-    height:8px;
-  }
-  
-  /* hero section=== */
-  .hero h1{
-    font-size:20px;
-  }
-  .recom img{
-    width:8%;
-  }
-  
-  /* about-section ==*/
-  #about{
-    gap:20px
-  }
-  .warranty-box{
-    gap:12px;
-  }
-  .warranty-box .war-card{
-    padding:12px;
-  }
-  .about-img2{
-    margin-top:15px;
-  }
-  .about-video{
-    width:45%;
-  }
-  .about-us ul{
-    padding:6px 13px;
-  }
-  .about-pts img{
-    width:16%;
-    margin:0;
-  }
-  .about-pts .contain{
-    margin:0;
-  }
-  .about-pts .contain h3{
-    padding:0;
-    margin:12px 0;
-  }
-
-  /* services =====*/
-  .service-txt h3{
-    margin-top:70%;
-  }
-  .slider img{
-    width:10%;
-    margin-bottom:20px;
-  }
-
-  /* awards and certification */
-  .crtf img{
-    width:70px;
-    height:66px;
-  }
-  .crtf{
-    padding:20px;
-  }
-
-  /* features-section */
-  .feature-head ul{
-    padding:7px;
-  }
-  .feature-head h2{
-    line-height:20px;
-  }
-  .feature-img{
-    margin:20px 0;
-  }
-  .feature-pts img{
-    width:25%;
-  }
-  .feature-pts{
-    gap:10px;
-  }
-  
-  /* our-goals ======*/
-  #our-goals{
-    gap:30px;
-  }
-  .collage{
-    width:85%;
-  }
-  .g-text ul{
-    padding:10px 13px;
-  }
-  .goal-cards{
-    gap:20px;
-  }
-  .goal{
-    padding:5px 10px;
-    border-radius:17px;
-  }
-  .sale-card h3{
-    margin-top:4%;
-  }
-  .goal img{
-    width:16%;
-    margin:10px 0 14px 0;
-  }
-
-  /* estimate-section ======*/
-  .est-text ul{
-    padding:10px 13px;
-  }
-  .est-pts img{
-    width:2.5%;
-  }
-  .est-agent{
-    width:23%;
-    top:7.3%;
-  }
-  .est-calc {
-    gap:26px;
-  }
-  .est-calc img{
-    width:23px;
-  }
-
-  /* plan-section ======*/
-  .price-head ul{
-    padding:10px;
-  }
-  .price-board a{
-    padding:7px 3px;
-    font-size:11px;
-    border-radius:7px;
-  }
-  .price-head .nav {
-    margin: 10px auto;
-    padding: 6px;
-    border-radius:9px;
-  }
-  .price-head .nav-pills button {
-    padding: 4px 5px;
-    border-radius: 6px;
-  }
-  .price-board p,
-  .price-board a {
-    padding: 4px;
-  }
-  .price-list {
-    margin: 0;
-  }
-  .price-board {
-    padding: 20px 16px;
-    border-radius: 25px;
-  }
-  .price-board h3 {
-    margin: 2px 2px;
-  }
-  .price-board hr {
-    margin: 0;
-  }
-  .price-board h2 {
-    padding: 2px 5px;
-    border-radius: 6px;
-    margin: 6px 0;
-  }
-  .price-board img {
-    width: 4%;
-  }
-  .year {
-    font-size: 8px;
-  }
-  .b1{
-    margin-top:52%;
-  }
-
-  /* contact-section ========*/
-  .cont-txt ul{
-    padding:10px 13px;
-  }
-  .contact-link {
-    gap: 2%;
-  }
-  .contact-link a {
-    font-size: 10px;
-    padding: 6px 4px;
-    width: 24%;
-    margin-right: 7px;
-    border-radius:6px;
-  }
-  .contact-link a img {
-    width: 12%;
-    height: 13%;
-  }
-  .phone img {
-    width: 18%;
-    height: 17%;
-  }
-  .call {
-    font-size: 10px;
-    padding: 0;
-  }
-
-  /* testimonials section ====*/
-  #testimonial{
-    padding:0;
-  }
-  .tes-text ul{
-    padding:10px 14px;
-  }
-  .tes-card {
-    padding:0;
-  }
-  .tes-card p{
-    margin:10px 0;
-  }
-  .tes-card img{
-    width:10%;
-  }
-  .user-info {
-    gap:2px
-  }
-  .tes-card a img{
-    width:48%;
-  }
-  .user-info h3{
-    font-size:11px;
-  }
-  #tes-bottom{
-    margin:35px auto;
-  }
-
-  /* faq section =======*/
-  #faq{
-   gap:2px; 
-  }
-  .faq-head img{
-    margin:10px -10px;
-    border-radius:20px;
-  }
-  .ques h3, .q1 h3{
-    font-size:12px;
-  }
-  .faq-text{
-    margin:8px;
-  }
-  .faq-text p{
-    margin:0;
-  }
-  .q1{
-    padding:10px 0;
-  }
-  .ques{
-    padding:10px 0;
-    background-size:4%;
-  }
-  
-  /* blog ========*/
-  .row .col-4{
-    gap:0;
-  }
-  .row h3{
-    font-size:10px;
-  }
-  .row a{
-    font-size:12px;
-  }
-
-  /* footer ======*/
-  footer p, footer a{
-    font-size:10px;
-  }
-  footer .footer-contact img {
-    width: 10px;
-  }
-  footer h3 {
-    font-size: 12px;
-    margin-bottom: 4px;
-  }
-  .quick-link {
-    padding: 0;
-  }
-  .quick-link p {
-    margin: 0;
-    padding: 1px 0;
-  }
-  .footer-contact p img {
-    width: 12px;
-    height: 12px;
-  }
-  .get-inTouch {
-    margin: 0;
-  }
-  .get-inTouch input {
-    margin-bottom: 10px;
-    border-radius: 5px;
-    height: 12px;
-  }
-  .get-inTouch input::placeholder {
-    font-size: 11px;
-  }
-  .sub{
-    padding:5px 4px;
-    border-radius:8px;
-  }
-  .bottom img{
-    width:22px;
   }
 }
