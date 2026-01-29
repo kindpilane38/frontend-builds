@@ -1,0 +1,101 @@
+h1,
+h5 {
+  font-family: Changa One;
+}
+body p,
+h6 {
+  font-family: Roboto;
+}
+.hero h1 {
+  font-size: 4rem;
+}
+
+:root {
+  --body-color: #393939;
+  --story-bg: #f9f9f9;
+
+  --hero-p: 11rem; /*top & bottom*/
+
+  --bs-primary: #8a53ff;
+  --btn-hover: #7947e4;
+  --bs-primary-rgb: 138, 83, 255;
+
+  --btn-fw: 500;
+  --btn-p: 8px 16px;
+  --btn-radius: 4px;
+
+  --radius: 12px; /* form-radius */
+}
+body {
+  color: var(--body-color);
+}
+
+.btn {
+  font-weight: var(--btn-fw);
+}
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  border-radius: var(--btn-radius);
+  padding: var(--btn-p);
+}
+.btn-primary:hover {
+  background: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+header {
+  max-width: none;
+}
+
+.hero {
+  background: url(lib/hero-img.png) no-repeat;
+  background-size: cover;
+  padding-top: var(--hero-p);
+  padding-bottom: var(--hero-p);
+}
+.h-text {
+  max-width: 500px;
+}
+
+.swiss-visit {
+  margin: 4rem auto;
+}
+.swiss-visit > .container {
+  max-width: fit-content;
+}
+.swiss-text {
+  max-width: 450px;
+}
+
+.discover {
+  margin: 20px auto;
+}
+.discover .row .text-center {
+  max-width: 280px;
+}
+
+.join {
+  background: url(lib/form-bg.png);
+  background-size: contain;
+}
+form {
+  max-width: 550px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: var(--radius);
+}
+select {
+  height: 59px;
+}
+
+.story,
+.main-story {
+  background-color: var(--story-bg);
+  max-width: 560px;
+}
+.side,
+.stories {
+  max-width: max-content;
+  margin: auto;
+}
